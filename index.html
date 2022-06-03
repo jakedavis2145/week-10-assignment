@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <style>
+        body{
+            background-color: grey;
+        }
+        
+    </style>
+</head>
+<body class="container">
+
+    <nav id=nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
+        <a class="navbar-brand" href="index.html">Birthday Logger</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-control="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a id="nav" class="nav-link" href="index.html"><u>Home</u></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a id="nav" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown
+            </a>
+            </div> 
+            </li>
+        </ul>
+    </div>
+</nav>
+<br>
+<body class="container">
+    <div id=intro class="row">
+    <div class="col-sm">
+        <div class="table">
+        <img id =pic1 src="https://www.fluentin3months.com/wp-content/uploads/2021/09/happy-birthday-in-italian.jpg">
+       
+        <div class="row">
+        <div class="col-sm">
+            <h4>Fun Fact</h4>
+                <p>It is estimated 385,000 babies are born everyday, and that an individual shares their birthday with over 20 million other people  🎂🎉 </p>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+<body  class="container-fluid">
+    <br>
+    <div id="next" class="card">
+       <div class="card-body">
+           <div class="row">
+               <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-birth-date">Enter your birthday!</label>
+                        <input type="date" class="form-control" id="new-birth-date">
+                    </div>
+                 </div> 
+             </div>
+             <div class="row">
+                 <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-task">Enter your name here!</label>
+                        <input type="text" class="form-control" id="new-task" placeholder="Name">
+
+                    </div>
+                 </div>
+                 <button id="add" class="btn btn-primary form-control">Add Birthday</button>
+             </div>
+        </div>
+     </div>
+<br>
+     <table id="log" class="table table-dark table-striped">
+            <th>Name</th>
+            <th>Birthday</th> 
+     </table>
+
+
+
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

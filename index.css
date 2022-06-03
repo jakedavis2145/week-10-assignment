@@ -1,0 +1,36 @@
+
+#pic1{
+    border-style: double;
+    border-radius: .25in;
+    height: 100%;
+    width: 100%;
+}
+#intro{
+    border-style: groove;
+    background-color: lightslategray;
+    border-color: lightgreen;
+}
+#nav{
+    border-style: groove;
+    border-radius: .30in;
+}
+
+#navBar{
+    border-style: dotted;
+}
+
+#log{
+    border-style: dashed;
+
+}
+
+#next{
+    background-color: lightgreen;
+}
+
+#add{
+    background-color:lightslategray;
+    border-style: groove;
+    border-radius: .45in;
+}
+
